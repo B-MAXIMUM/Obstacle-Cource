@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class UiManager : MonoBehaviour
 {
+    public UiManager Instantce;
     public GameObject pause;
     public GameObject gameUi;
     public GameObject Gameover;
