@@ -640,6 +640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_desert
       objectReference: {fileID: 0}
+    - target: {fileID: 408603264379112064, guid: 9b72c1f1e8b34464d9b2b5059a09b2cd, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 1071986649406214202, guid: 9b72c1f1e8b34464d9b2b5059a09b2cd, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -654,7 +658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1071986649406214202, guid: 9b72c1f1e8b34464d9b2b5059a09b2cd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 97.44776
+      value: 17.86
       objectReference: {fileID: 0}
     - target: {fileID: 1071986649406214202, guid: 9b72c1f1e8b34464d9b2b5059a09b2cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -712,7 +716,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 31015310243741657, guid: 55e5e35d83720b840a571486bc72e35a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 118.27776
+      value: 38.690002
       objectReference: {fileID: 0}
     - target: {fileID: 31015310243741657, guid: 55e5e35d83720b840a571486bc72e35a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -745,6 +749,10 @@ PrefabInstance:
     - target: {fileID: 803295422421230947, guid: 55e5e35d83720b840a571486bc72e35a, type: 3}
       propertyPath: m_Name
       value: swiperDouble_teamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 803295422421230947, guid: 55e5e35d83720b840a571486bc72e35a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55e5e35d83720b840a571486bc72e35a, type: 3}
@@ -1121,7 +1129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b90e11d4b81a444f9c32aea67813f4b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 89.937775
+      value: 10.350014
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b90e11d4b81a444f9c32aea67813f4b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1187,7 +1195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9fa5be6c9da5f734e9665ad538b016f2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 82.387764
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9fa5be6c9da5f734e9665ad538b016f2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1249,7 +1257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb2e4850fe9ba724ebc0916abfdd3b7b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 86.51778
+      value: 6.9300156
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb2e4850fe9ba724ebc0916abfdd3b7b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1653,6 +1661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: swiperLong_teamBlue
       objectReference: {fileID: 0}
+    - target: {fileID: 3527067998471540893, guid: bee6a068c1f399d47b153c4df15eadd3, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 4303603980526357031, guid: bee6a068c1f399d47b153c4df15eadd3, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1667,7 +1679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4303603980526357031, guid: bee6a068c1f399d47b153c4df15eadd3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 92.74777
+      value: 13.160011
       objectReference: {fileID: 0}
     - target: {fileID: 4303603980526357031, guid: bee6a068c1f399d47b153c4df15eadd3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1715,6 +1727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrierStrut
       objectReference: {fileID: 0}
+    - target: {fileID: 2643232851011587018, guid: d8985b3459474954485e79666472ca3d, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 3451295439486194032, guid: d8985b3459474954485e79666472ca3d, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -1729,7 +1745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3451295439486194032, guid: d8985b3459474954485e79666472ca3d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 100.59776
+      value: 21.010002
       objectReference: {fileID: 0}
     - target: {fileID: 3451295439486194032, guid: d8985b3459474954485e79666472ca3d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1787,7 +1803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2724748509833214212, guid: b75a926dd2d15c442a7f0e793a1171e5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 90.80776
+      value: 11.220001
       objectReference: {fileID: 0}
     - target: {fileID: 2724748509833214212, guid: b75a926dd2d15c442a7f0e793a1171e5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1821,6 +1837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: target
       objectReference: {fileID: 0}
+    - target: {fileID: 3358437349684044734, guid: b75a926dd2d15c442a7f0e793a1171e5, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b75a926dd2d15c442a7f0e793a1171e5, type: 3}
 --- !u!4 &1928578028141514360 stripped
@@ -1839,6 +1859,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_forest
       objectReference: {fileID: 0}
+    - target: {fileID: 5924956945939219640, guid: 8df4fcaea63c9704d841fb91042e64bd, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6445350767447547394, guid: 8df4fcaea63c9704d841fb91042e64bd, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1853,7 +1877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6445350767447547394, guid: 8df4fcaea63c9704d841fb91042e64bd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 90.856544
+      value: 11.268784
       objectReference: {fileID: 0}
     - target: {fileID: 6445350767447547394, guid: 8df4fcaea63c9704d841fb91042e64bd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1911,7 +1935,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8342573249467091451, guid: 408dd19c56e6d304796fe2232b7bcad0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 104.62776
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8342573249467091451, guid: 408dd19c56e6d304796fe2232b7bcad0, type: 3}
       propertyPath: m_LocalRotation.w

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class UiManager : MonoBehaviour
 {
-    private UiManager Instantce;
+    public static UiManager Instantce;
     public GameObject pause;
     public GameObject gameUi;
     public GameObject Gameover;
@@ -14,7 +14,7 @@ public class UiManager : MonoBehaviour
     public TextMeshProUGUI score;
     private int _scoreNum;
     
-    private void Start() 
+    private void Awake() 
     {
         Instantce = this;
     }
@@ -30,7 +30,7 @@ public class UiManager : MonoBehaviour
     }
     public void Home()
     {
-    
+        SceneManager.LoadScene(0);
     }
     public void Scoredisplay()
     {
@@ -38,6 +38,8 @@ public class UiManager : MonoBehaviour
     }
     public void gameOverEvent()
     {
-
+        Time.timeScale = 0;
+        Gameover.gameObject.SetActive(true);
+        gameUi.gameObject.SetActive(false);
     }
 }

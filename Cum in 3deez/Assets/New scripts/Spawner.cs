@@ -20,19 +20,19 @@ public class Spawner : MonoBehaviour
 
     private void GenerateRandomSegments()
     {
-        float yValue = 25f;
+        float ZValue = 50f;
         float segmentGap = 0;
-        Vector2 spawnPos = new Vector2(0, segmentGap);
+        Vector3 spawnPos = new Vector3(0, -2, segmentGap);
 
         for(int i = 0; i < 5; i++)
         {
-            int index = Random.Range(1, 5);
-            segmentGap += yValue;
-            spawnPos = new Vector2(0, segmentGap);
+            int index = Random.Range(0, 3);
+            segmentGap += ZValue;
+            spawnPos = new Vector3(0, -1, segmentGap);
             Instantiate(RoadSegments[index], spawnPos, RoadSegments[index].transform.rotation);
         }
-        segmentGap += yValue;
-        spawnPos = new Vector2(0, segmentGap);
+        segmentGap += ZValue;
+        spawnPos = new Vector3(0, -1, segmentGap);
         Instantiate(RoadSegments[0], spawnPos, RoadSegments[0].transform.rotation);
     }
 }
